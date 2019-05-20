@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About me"
+    url: https://famous7.github.io/profile/cv/
   - title: "Archive"
     url: /year-archive/
   - title: "tag"

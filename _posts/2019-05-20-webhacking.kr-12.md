@@ -6,6 +6,8 @@ categories:
 tags:
   - webhacking
   - wargame
+
+classes: wide
 ---
 
 [12번 바로가기](http://webhacking.kr/challenge/codeing/code2.html)

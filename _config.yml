@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Famous Security Blog"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Famous7"
 description              : "An amazing website."
 url                      : "https://Famous7.github.io"
 baseurl                  : ""
@@ -107,11 +107,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Famous7"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "KOREA"
+  email            : "barcel@naver.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

@@ -15,7 +15,7 @@ tags:
 
 ![11번](/img/11번_1.JPG)
 
-```PHP
+```php
 $pat="/[1-3][a-f]{5}_.*[자기IP주소].*\tp\ta\ts\ts/";
 
 if(preg_match($pat,$_GET[val])) { echo("Password is ????"); }
@@ -33,3 +33,5 @@ if(preg_match($pat,$_GET[val])) { echo("Password is ????"); }
 tap문자는 %09 로 인코딩하여 넣으면 된다.
 
 `?val=1aaaaa_[0.0.0.0]%09p%09a%09s%09s`
+
+![11번](/img/11번_2.JPG)

@@ -281,6 +281,16 @@ compress_html:
     envs: development
 
 
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Categories
+   url: /category
+ - title: Contact
+   url: /contact
+
 # Defaults
 defaults:
   # _posts

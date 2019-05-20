@@ -1,3 +1,9 @@
+layout: post
+titile: webhacking.kr 11번 문제 풀이
+comments: true
+categories: [Webhacking]
+tags: [Webhacking]
+
 webhacking.kr 11번 문제풀이
 ====
 

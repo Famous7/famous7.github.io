@@ -1,5 +1,5 @@
 ---
-title: "webhacking.kr 11번 문제 풀이"
+title: "webhacking.kr 12번 문제 풀이"
 excerpt_separator: "<!--more-->"
 categories:
   - webhacking
@@ -46,5 +46,9 @@ alert("Password is "+ck.replace("=",""));
 
 URL에서 '='의 인덱스를 가져오고, '=' 이후의 서브 스트링에서 if문에 있는 코드의 결과인 'youaregod~~~~~~~!'이 있는지 확인하는 코드이다.
 if문이 참이될 경우 'youaregod~~~~~~~!'이 출력된다. 즉 Flag = 'youaregod~~~~~~~!'이다.
-URL에 넣어서 확인하고 싶다면, `?val=youaregod~~~~~~~!` 이런식으로 넣으면된다. 파라메터 없이 붙이면 404가 뜬다.
+URL에 넣어서 확인하고 싶다면,
+```
+?val=youaregod~~~~~~~!
+```
+이런식으로 넣으면된다. 파라메터 없이 붙이면 404가 뜬다.
 [12번](/img/12번_2.JPG)

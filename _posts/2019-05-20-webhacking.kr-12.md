@@ -44,9 +44,9 @@ alert("Password is "+ck.replace("=",""));
 }
 ```
 
-URL에서 '='의 인덱스를 가져오고, '=' 이후의 서브 스트링에서 if문에 있는 코드의 결과인 'youaregod~~~~~~~!'이 있는지 확인하는 코드이다.
-if문이 참이될 경우 'youaregod~~~~~~~!'이 출력된다. 즉 Flag = 'youaregod~~~~~~~!'이다.
-URL에 넣어서 확인하고 싶다면,\
+URL에서 '='의 인덱스를 가져오고, '=' 이후의 서브 스트링을 if문에서 특정 문자열과 같은지 비교하는 코드이다.
+if문 우측의 코드의 결과는 youaregod~~~~~~~!이다. if문이 참이될 경우 'youaregod~~~~~~~!'이 출력된다. 즉 Flag = 'youaregod~~~~~~~!'이다.
+URL에 넣어서 확인하고 싶다면,
 ```html
 ?val=youaregod~~~~~~~!
 ```

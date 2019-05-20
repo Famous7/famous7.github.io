@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About me"
-    url: https://famous7.github.io/profile/cv/
+    url: /portfolio/
   - title: "Archive"
     url: /year-archive/
   - title: "tag"

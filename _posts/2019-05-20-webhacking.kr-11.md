@@ -15,7 +15,9 @@ if(preg_match($pat,$_GET[val])) { echo("Password is ????"); }
 `pat`의 정규식에 매칭되는 `val`을 url에 HTML GET 파라메터로 넣어주면된다.
 
 정규식의 동작은 아래의 사이트에서 아래의 사이트에서 확인할 수 있다.
-\n[REGEXR](https://regexr.com/)\n
+
+[REGEXR](https://regexr.com/)
+
 
 1. 1~3까지 문자 a-f까지 문자 5개_
 2. 자기 아이피 주소 0번 이상 반복

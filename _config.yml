@@ -111,11 +111,11 @@ author:
   bio              : "I am a student studying wireless network and information security."
   location         : "Chungju/KOREA"
   email            : "barcel@naver.com"
-  uri             : "Test"
+  uri              : "Test"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url:  # mailto:barcel@naver.com
+       #url:  # mailto:barcel@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"

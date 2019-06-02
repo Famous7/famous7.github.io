@@ -64,9 +64,9 @@ Key | Code
 97 | 	1 (Num Lock)
 119 | 	F8
 115 | 	F4
-124 | |
+124 | \|
 
-여기서 124번 키('|')를 누를경우 `location.href=String.fromCharCode(cd)`가 실행되어 특정 URL로 이동된다. 저기에 flag가 있는 것 같으니 이동해보자.
+여기서 124번 키('\|')를 누를경우 `location.href=String.fromCharCode(cd)`가 실행되어 특정 URL로 이동된다. 저기에 flag가 있는 것 같으니 이동해보자.
 
 
 ![16_3번](/img/16번_3.JPG)

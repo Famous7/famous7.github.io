@@ -71,10 +71,14 @@ http 헤더의 user-agent 필드에 있는 값에서 sqli에 사용되는 여러
 그 밑에 보면 user-agent에 해당하는 값이 없으면 새로 입력하는데, 이때 user-agent에 넣은 값이 쿼리에 사용된다. user-agent에 쿼리를 넣어 문제 id에 admin을 삽입하면 된다.
 
 
-일단 '$pat'에서 싱글쿼터를 필터링하지 않는다. select 문에서는 다시 `$_SERVER[HTTP_USER_AGENT]=str_replace("'","",$_SERVER[HTTP_USER_AGENT]);`에서 싱글쿼터를 필터링하는데,
-insert문에서는 `$agent`를 그대로 사용하기 때문에 싱글쿼터를 필터링하지 않는다.
-`insert into lv0(agent,ip,id) values('$agent','$ip','guest');`에서 agent에 `hihi', '0', 'admin')#` 이런식으로 쿼리를 넣거나, `a1','i1','admin'), ('a2` 이렇게 주석을 사용 안하고
-한 번에 여러 레코드를 삽입하는 쿼리를 만들면 된다.
+일단 '$pat'에서 싱글쿼터를 필터링하지 않는다. select 문에서는 다시 `$_SERVER[HTTP_USER_AGENT]=str_replace("'","",$_SERVER[HTTP_USER_AGENT]);`
+
+에서 싱글쿼터를 필터링하는데, insert문에서는 `$agent`를 그대로 사용하기 때문에 싱글쿼터를 필터링하지 않는다.
+`insert into lv0(agent,ip,id) values('$agent','$ip','guest');`
+
+에서 agent에 `hihi', '0', 'admin')#` 이런식으로 쿼리를 넣거나, `a1','i1','admin'), ('a2` 이렇게 주석을 사용 안하고 한 번에 여러 레코드를 삽입하는 쿼리를 만들면 된다.
+
+![8번](/img/8번_2.JPG)
 
 
 ```python
@@ -98,5 +102,3 @@ data = data.decode('UTF-8')
 
 print(data)
 ```
-
-![8번](/img/8번_2.JPG)

@@ -68,6 +68,8 @@ $q=@mysql_fetch_array(mysql_query("select id from challenge27_table where id='gu
 대부분의 워게임 문제가 그렇듯 저기 나와 있는 코드가 실제 서버의 소스코드는 아니다. 쿼리에 문제는 없지만 이걸로 문제를 풀 수 는 없어 보인다.
 
 
+![27번_3](/img/27번_3.JPG)
+
 다른 방법은 admin의 no를 추측하는 건데 `no=1`은 guest니까 `no=2`부터 해보자. 아래와 같은 쿼리를 사용하면 된다.
 
 `2) or no like 2 -- `

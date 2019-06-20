@@ -110,7 +110,7 @@ author:
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am a student studying wireless network and information security."
   location         : "Chungju/KOREA"
-  email            : "barcel@naver.com"
+  email            : "barcel{at}naver.com"
   uri              : "Test"
   links:
     - label: "Email"
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/Famous7"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

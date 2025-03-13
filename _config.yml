@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko"
-title                    : "Famous Security Blog"
+title                    : "Myoungsung You Blog"
 title_separator          : "-"
-name                     : "Famous7"
-description              : "Information Security and Wireless Network."
+name                     : "Myoungsugn You"
+description              : "Information Security and Networked Systems."
 url                      : "https://Famous7.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,10 +108,9 @@ analytics:
 author:
   name             : "Myoungsung (Mason) You"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am a Ph.D. candidate at Korea Advanced Institute of Science and Technology (KAIST). My research interests include cloud networking, network security, and systems for AI."
+  bio              : "I am a student studying wireless network and information security"
   location         : "Deajeon/KOREA"
   email            : "famous77{at}kaist.ac.kr"
-  uri              : "Test"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "YOU MYEONGSUNG(Famous)"
+  name             : "Myoungsung (Mason) You"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am a student studying wireless network and information security."
-  location         : "Chungju/KOREA"
-  email            : "barcel{at}naver.com"
+  location         : "Deajeon/KOREA"
+  email            : "famous77{at}kaist.ac.kr"
   uri              : "Test"
   links:
     - label: "Email"

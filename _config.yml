@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko"
-title                    : "Myoungsung You Blog"
+title                    : "Myoungsung You Blog"
 title_separator          : "-"
 name                     : "Myoungsugn You"
 description              : "Information Security and Networked Systems."
 url                      : "https://Famous7.github.io"
-baseurl                  : ""
+baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -40,7 +40,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-dark" # "github-light" (default), "github-dark"
+    theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -106,18 +106,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Myoungsung (Mason) You"
+  name             : "Myoungsung You"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "I am a student studying wireless network and information security"
   location         : "Deajeon/KOREA"
-  email            : "famous77{at}kaist.ac.kr"
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       #url:  # mailto:famous77@kaist.ac.kr
+      # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://nss.kaist.ac.kr
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Famous7"
+      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -279,6 +279,7 @@ compress_html:
   ignore:
     envs: development
 
+
 # Defaults
 defaults:
   # _posts
@@ -292,10 +293,3 @@ defaults:
       comments: # true
       share: true
       related: true
-# _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
